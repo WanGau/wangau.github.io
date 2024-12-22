@@ -311,6 +311,8 @@ html.w-mod-touch * {
   padding: 9px 15px;
   text-decoration: none;
   display: inline-block;
+  position: relative;
+  z-index: 10000;
 }
 
 input.w-button {
@@ -564,6 +566,8 @@ label {
 
 .w-input,
 .w-select {
+  position: relative;
+  z-index: 10000;
   color: #333;
   vertical-align: middle;
   background-color: #fff;
