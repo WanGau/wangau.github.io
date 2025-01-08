@@ -2313,6 +2313,7 @@ a {
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
+  z-index: 2;
 }
 
 .h4.light {
@@ -2368,7 +2369,7 @@ a {
 
 .cloud1 {
   z-index: 1;
-  width: 760px;
+  width: 420px;
   max-width: none;
   position: absolute;
   top: 696px;
@@ -2685,4 +2686,27 @@ a {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.rotating {
+  -webkit-animation: rotating 15s linear infinite;
+  animation: rotating 15s linear infinite;
 }
