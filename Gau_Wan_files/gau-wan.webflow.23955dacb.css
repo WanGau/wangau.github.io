@@ -2557,8 +2557,9 @@ a {
   }
 
   .cloud1 {
+    width: 620px;
     top: 642px;
-    left: -235px;
+    left: -320px;
   }
 
   .cloud2 {
@@ -2627,7 +2628,7 @@ a {
   .cloud1 {
     width: 430px;
     top: 411px;
-    left: -140px;
+    left: -320px;
   }
 
   .cloud2 {
