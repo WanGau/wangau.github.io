@@ -2205,7 +2205,7 @@ textarea.w-select {
 
 body {
   color: #fff;
-  background-color: #1b1b1b;
+  background-color: var(--white);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -2332,7 +2332,7 @@ a {
 }
 
 .sticky-numbers {
-  color: #bebebe;
+  color: var(--red);
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
@@ -2539,7 +2539,7 @@ a {
 
 .hide {
   z-index: 98;
-  background-color: var(--dark);
+  background-color: var(--white);
   opacity: 1;
   transform-origin: 50% 5vh;
   width: 100%;
