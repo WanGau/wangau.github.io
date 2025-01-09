@@ -2376,6 +2376,10 @@ a {
   left: -40px;
 }
 
+.cloud1.disc {
+  left: -220px;
+}
+
 .cloud2 {
   z-index: 2;
   width: 550px;
@@ -2563,6 +2567,11 @@ a {
     left: -320px;
   }
 
+
+  .cloud1.disc {
+    left: -320px;
+  }
+
   .cloud2 {
     top: 594px;
     left: 415px;
@@ -2629,7 +2638,11 @@ a {
   .cloud1 {
     width: 430px;
     top: 411px;
-    left: -320px;
+    left: -235px;
+  }
+
+  .cloud1.disc {
+    left: -220px;
   }
 
   .cloud2 {
