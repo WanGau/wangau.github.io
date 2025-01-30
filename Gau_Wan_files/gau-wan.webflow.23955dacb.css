@@ -2324,7 +2324,7 @@ a {
 }
 
 .h4.light {
-  color: var(--light-grey);
+  color: var(--light);
 }
 
 .top-sticky {
@@ -2478,7 +2478,7 @@ a {
 }
 
 .field-label {
-  color: var(--light-grey);
+  color: var(--light);
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -2488,7 +2488,7 @@ a {
 
 .text-field {
   background-color: var(--light);
-  color: var(--light-grey);
+  color: var(--white);
   text-align: center;
   border: 0 solid #000;
   border-radius: 4px;
