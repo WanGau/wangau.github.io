@@ -43,6 +43,17 @@
             (o.DocumentTouch && c instanceof DocumentTouch)) &&
             (n.className += t + "touch");
       })(window, document);
+      // force scroll top
+      window.onbeforeunload = function () {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "instant",
+        });
+      };
+      setTimeout(() => {
+        console.clear();
+      }, 3000);
     </script>
     <link
       href="https://cdn.prod.website-files.com/673032e002e847b17fc6bf79/673032e002e847b17fc6bfde_logo3.png"
@@ -159,7 +170,7 @@
           </div>
           <div class="framed-section">
             <div class="spacer-25"></div>
-            <h4 class="h4">Thứ sáu, ngày 4 tháng 4 năm 2025</h4>
+            <h4 class="h4">Thứ Bảy, ngày 1 tháng 3 năm 2025</h4>
             <h1 class="h1">chúng mình chính thức về chung một nhà!</h1>
             <img
               src="./Gau_Wan_files/673032e002e847b17fc6bfcc_cloud web1.png"
@@ -207,7 +218,7 @@
               Lẽ ra muốn kể cho bạn nghe<br />
               một câu chuyện tình yêu cảm động long trời lở đất, <br />
               mà sau khi ngồi xuống ngẫm nghĩ, <br />
-              lại thấy chúng mình đã trải qua
+              lại thấy chúng mình đã trải qua <br />
               <span style="color: var(--gold)">542+ ngày</span><br />
               bên nhau thật bình yên.
             </h4>

@@ -2183,7 +2183,7 @@ textarea.w-select {
   --red: #0078b3;
   --gold: #ffdd56;
   --white: #fcfdf6;
-  --light-grey: #444444;
+  --light-grey: #cecece;
   --steel-blue: #0090bc;
   --dark: #1b1b1b;
   --light: #2e2e2e;
@@ -2231,7 +2231,7 @@ a {
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-  height: 1330vh;
+  height: 300vh;
   display: flex;
   position: relative;
 }
@@ -2273,7 +2273,7 @@ a {
 }
 
 .framed-section._300vh {
-  height: 900vh;
+  height: 600vh;
 }
 
 .framed-section.skybg {
