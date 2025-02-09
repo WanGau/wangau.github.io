@@ -2648,7 +2648,7 @@ a {
 
 @media screen and (max-width: 479px) {
   .viewport {
-    height: 80dvh;
+    height: 78dvh;
     top: 10vh;
   }
 
