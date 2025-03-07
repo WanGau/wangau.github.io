@@ -2273,7 +2273,7 @@ a {
 }
 
 .framed-section._300vh {
-  height: 800vh;
+  height: 900vh;
 }
 
 .framed-section.skybg {
@@ -2561,11 +2561,15 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  .framed-section._300vh {
+    height: 800vh;
+  }
+
   .viewport {
-    height: 84dvh;
+    height: 83vh;
     margin-left: 15px;
     margin-right: 15px;
-    top: 7vh;
+    top: 8vh;
   }
 
   .cloud1 {
