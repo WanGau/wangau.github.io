@@ -2231,7 +2231,7 @@ a {
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-  height: 300vh;
+  height: 900vh;
   display: flex;
   position: relative;
 }
@@ -2273,7 +2273,7 @@ a {
 }
 
 .framed-section._300vh {
-  height: 900vh;
+  height: 800vh;
 }
 
 .framed-section.skybg {
@@ -2561,10 +2561,6 @@ a {
 }
 
 @media screen and (max-width: 991px) {
-  .framed-section._300vh {
-    height: 800vh;
-  }
-
   .viewport {
     height: 83vh;
     margin-left: 15px;
@@ -2652,7 +2648,7 @@ a {
 
 @media screen and (max-width: 479px) {
   .viewport {
-    height: 78dvh;
+    height: 90vh;
     top: 10vh;
   }
 
